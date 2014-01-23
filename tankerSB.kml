@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>LineStyle.kml</name>
+  <open>1</open>
+  <Style id="linestyleExample">
+    <LineStyle>
+      <color>7f000000</color>
+      <width>4</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name> Proposed Oil Tanker North Route B</name>
+    <styleUrl>#linestyleExample</styleUrl>
+    <LineString>
+      <extrude>1</extrude>
+      <tessellate>1</tessellate>
+			<coordinates>
+-129.8980547126815,52.5424047709579,0 -130.7055238505308,53.16088716816381,0 -130.9044439978192,53.33423212941872,0 -130.9170342192754,53.52956970814908,0 -130.8318481315848,53.60268426881984,0 -130.7102785552397,53.65268531931788,0 -130.6355508416437,53.66166105191417,0 </coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
